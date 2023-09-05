@@ -34,3 +34,6 @@ anyhow = "1.0"
 async-trait = "0.1"
 
 [workspace]
+
+[patch."https://github.com/fermyon/spin-componentize"]
+spin-componentize = { git = "https://github.com/endocrimes/spin-componentize", branch = "main" }
